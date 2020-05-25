@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebecef"
+    tools:context=".ProfileSetupActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:indeterminate="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleHorizontal"/>
+
+    <TextView
+        android:id="@+id/tv_profileSetup"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Profile Setup"
+        />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_below="@+id/tv_profileSetup"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@drawable/circledot" >
+
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/iv_camera"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_profileSetup"
+        android:layout_marginTop="66dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_allFields"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:width="87.3dp"
+        android:height="10dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        android:text="Upload your profile photo"
+        android:textColor="#494949"
+        android:textSize="12sp"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rectangle"
+        android:ems="10"
+        android:textSize="14sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="Nickname"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:digits="0123456789."
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_rectangle"
+        android:ems="10"
+        android:textSize="14sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="Phone"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:background="@drawable/purple_vibrant_rich"
+        android:textColor="#ffffff"
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/et_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:text="Continue" />
+
+</RelativeLayout>

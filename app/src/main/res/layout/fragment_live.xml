@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LiveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="@string/hello_blank_fragment" />
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        >-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/card_booking_info"-->
+<!--            android:layout_below="@+id/linearLayout"-->
+<!--            app:cardCornerRadius="8dp"-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <LinearLayout-->
+<!--                android:id="@+id/booking_posts"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:src="@drawable/ic_event_note_black_24dp"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+
+<!--                        <TextView-->
+<!--                            android:text="Your Booking Information"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <TextView-->
+<!--                            android:text="@string/address_bullet"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/txt_office_address"-->
+<!--                            android:text=" Office Address"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <TextView-->
+<!--                            android:text="@string/time_bullet"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/txt_time"-->
+<!--                            android:text=" Time"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <TextView-->
+<!--                            android:text="@string/psychologist_bullet"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/txt_office_psychologist"-->
+<!--                            android:text=" Paul"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <TextView-->
+<!--                            android:text="@string/bullet"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/txt_time_remain"-->
+<!--                            android:text=" Time"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"/>-->
+
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </LinearLayout>-->
+
+</FrameLayout>

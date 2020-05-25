@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218402449154",
+    "firebase_url": "https://cognitio-34365.firebaseio.com",
+    "project_id": "cognitio-34365",
+    "storage_bucket": "cognitio-34365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218402449154:android:966de8fe0f4862c62a041b",
+        "android_client_info": {
+          "package_name": "com.example.heroku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218402449154-30s13ro9vfkb05rtjc5hv3fccvuc4g8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heroku",
+            "certificate_hash": "c37c4e78400aed8072fe55cb509c64f947df4bab"
+          }
+        },
+        {
+          "client_id": "218402449154-7f4ovf6h3vk4lurejihrol9eb5vfgls5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQktSRooXn4yJU2vFfvkT6zxGoKLE2_9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218402449154-7f4ovf6h3vk4lurejihrol9eb5vfgls5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
